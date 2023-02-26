@@ -35,18 +35,5 @@ function goToUrl1(){
 }
 
 
-const firstText=document.querySelector('#iphone');
-const secondText=document.querySelector('#second');
-const thirdText=document.querySelector('#third');
-const forthText=document.querySelector('#forth');
-
-firstBtn.addEventListener('click', display);
-
-function display(){
-    document.body.classList.toggle('active');
-    firstBtn.classList.toggle("active");
-}
-
-
 
 
